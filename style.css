@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.swicher {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border-radius: 3rem;
+    /* border-top-left-radius: 50%; */
+    outline: 2px solid grey;
+    background-color: red;
+    top: 20px;
+    left: 30px;
+    transition: all linear .5s;
+}
+
+.swicher div {
+    position: absolute;
+    left: 0px;
+    right: 40px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 3rem;
+    /* background-color: lightgray; */
+    background-color: #fff;
+    transition: all linear .5s;
+}
+
+.active {
+    background-color: lightgreen !important;
+}
