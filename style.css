@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body {
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+}
+/*
 .swicher {
     position: relative;
     width: 80px;
     height: 40px;
     border-radius: 3rem;
-    /* border-top-left-radius: 50%; */
     outline: 2px solid grey;
     background-color: red;
     top: 20px;
@@ -25,11 +29,113 @@
     width: 40px;
     height: 40px;
     border-radius: 3rem;
-    /* background-color: lightgray; */
     background-color: #fff;
     transition: all linear .5s;
 }
 
 .active {
     background-color: lightgreen !important;
+}*/
+/* styling my page  */
+.mainContainer {
+}
+
+.container {
+    width: calc(100vw - 6em);
+    margin: auto;
+    text-align: center;
+}
+
+.container .text h1,
+.container .text p {
+    text-transform: uppercase;
+}
+.inputs .creation input {
+    width: 100%;
+    padding: 4px 2px;
+    margin-bottom: 4px;
+}
+input:focus {
+    transform: scale(1.05);
+    outline: none;
+}
+.inputs .creation .details {
+    display: flex;
+    column-gap: 4px;
+    margin: 4px 0px;
+}
+
+.inputs .creation .details input {
+    padding: 4px 2px;
+}
+.inputs .creation .details span {
+    background-color: lightcoral;
+    padding: 0px 2px;
+    color: #fff;
+}
+.inputs .creation .create button {
+    width: 100%;
+    text-transform: capitalize;
+    background-color: blueviolet;
+    border: none;
+    padding: 2px 0px;
+    color: #fff;
+}
+
+.inputs .search {
+    margin: 4px 0px;
+}
+.inputs .search input {
+    width: 100%;
+    padding: 4px 2px;
+    margin: 2px 0px;
+}
+.inputs .search .btns {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    background-color: #0b0b0b;
+    color: #fff;
+    border: none;
+}
+.btns button {
+    width: calc(50% - 40px);
+    background-color: blueviolet;
+    border: none;
+    padding: 4px 0px;
+    color: #fff;
+}
+
+.inputs .delet button {
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    padding: 4px 2px;
+    color: #fff;
+}
+
+/* table */
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.container table tbody tr,
+.container table thead tr {
+    border-bottom: 1px solid lightslategray;
+}
+td,
+th {
+    padding: 4px 0px;
+}
+th {
+    text-transform: uppercase;
+}
+
+tr td button{
+    background-color: rgb(154, 72, 230);
+    padding: 2px;
+    border:none;
+    color: #fff;
 }

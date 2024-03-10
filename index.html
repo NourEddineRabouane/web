@@ -4,15 +4,100 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
-        <title>Document</title>
+        <title>cruds</title>
     </head>
     <body>
-        <div class="container">
+        <!-- <div class="container">
             <div class="swicher">
                 <div></div>
             </div>
+        </div> -->
+        <!-- start -->
+        <div class="maincontainer">
+            <div class="create">
+                <div class="container">
+                    <div class="text">
+                        <h1>cruds</h1>
+                        <p>create read update search</p>
+                    </div>
+                    <div class="info">
+                        <div class="inputs">
+                            <div class="creation">
+                                <input
+                                    class="title"
+                                    type="text"
+                                    placeholder="title"
+                                />
+                                <div class="details">
+                                    <input class="price" type="number" placeholder="price" />
+                                    <input class="taxe" type="number" placeholder="taxes" />
+                                    <input class="ads" type="number" placeholder="ads" />
+                                    <input class="discount" type="number" placeholder="discount" />
+                                    <span >total : <strong class="total">57689</strong></span>
+                                </div>
+                                <input
+                                    class="count"
+                                    type="number"
+                                    placeholder="count"
+                                />
+                                <input
+                                    class="category"
+                                    type="text"
+                                    placeholder="category"
+                                />
+                                <div class="create">
+                                    <button id="create">create</button>
+                                </div>
+                            </div>
+                            <div class="search">
+                                <input type="text" placeholder="search" />
+                                <div class="btns">
+                                    <button id="sertit">search by title</button>
+                                    <button id="sercat">search by category</button>
+                                </div>
+                            </div>
+                            <div class="delet">
+                                <button id="deletAll">delet all (<strong></strong>)</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>title</th>
+                                    <th>price</th>
+                                    <th>taxes</th>
+                                    <th>ads</th>
+                                    <th>discouny</th>
+                                    <th>total</th>
+                                    <th>category</th>
+                                    <th>update</th>
+                                    <th>delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <tr>
+                                    <td class="crudId">1</td>
+                                    <td class="crudTitle">iphe</td>
+                                    <td class="crudPrice">1000</td>
+                                    <td class="crudTaxe">30</td>
+                                    <td class="crudAds">4</td>
+                                    <td class="crudDiscount">20</td>
+                                    <td class="crudCount">4000</td>
+                                    <td class="crudCategory">phone</td>
+                                    <td class=""><button class="upCrud">update</button></td>
+                                    <td class=""><button class="delCrud">delete</button></td>
+                                </tr> -->
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-
+        <!-- end -->
         <script src="main.js"></script>
     </body>
 </html>
